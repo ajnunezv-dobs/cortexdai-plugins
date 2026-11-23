@@ -1,12 +1,24 @@
 {
   "name": "cortexdai",
   "description": "Plugins de CortexDAI (DObs): skills para usar los datos de cada cliente desde su IA",
-  "owner": { "name": "DObs" },
+  "owner": {
+    "name": "DObs"
+  },
   "plugins": [
     {
       "name": "cortexdai-prueba",
       "source": "./plugins/cortexdai-prueba",
       "description": "Plugin de prueba: comprueba que las actualizaciones llegan solas"
+    },
+    {
+      "name": "cortexdai-comercial",
+      "source": "./plugins/cortexdai-comercial",
+      "description": "Ventas contra la meta: cómo va el mes, dónde se pierde, evaluar un producto e informe de la semana."
+    },
+    {
+      "name": "cortexdai-inventario",
+      "source": "./plugins/cortexdai-inventario",
+      "description": "Inventario: dinero detenido, qué liquidar, qué dejar de pedir y qué pedir."
     }
   ]
 }

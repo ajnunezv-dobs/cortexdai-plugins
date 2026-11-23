@@ -1,0 +1,12 @@
+{
+  "name": "cortexdai",
+  "description": "Plugins de CortexDAI (DObs): skills para usar los datos de cada cliente desde su IA",
+  "owner": { "name": "DObs" },
+  "plugins": [
+    {
+      "name": "cortexdai-prueba",
+      "source": "./plugins/cortexdai-prueba",
+      "description": "Plugin de prueba: comprueba que las actualizaciones llegan solas"
+    }
+  ]
+}

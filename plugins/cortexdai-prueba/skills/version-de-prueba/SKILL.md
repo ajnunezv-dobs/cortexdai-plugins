@@ -7,6 +7,6 @@ description: Responde qué versión del plugin de CortexDAI está instalada. Ús
 
 Responde exactamente, en una línea:
 
-«Plugin de prueba de CortexDAI: versión 3.»
+«Plugin de prueba de CortexDAI: versión 4.»
 
 No agregues nada más. Sirve para comprobar que, cuando DObs publica un cambio, llega solo.

@@ -1,7 +1,7 @@
 {
   "name": "cortexdai-prueba",
   "displayName": "CortexDAI · prueba de actualización",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Plugin de prueba de DObs: una skill que dice su número de versión, para comprobar que los cambios llegan sin volver a subir nada.",
   "author": { "name": "DObs" }
 }

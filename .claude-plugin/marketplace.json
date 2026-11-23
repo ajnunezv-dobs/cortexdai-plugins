@@ -19,6 +19,11 @@
       "name": "cortexdai-inventario",
       "source": "./plugins/cortexdai-inventario",
       "description": "Inventario: dinero detenido, qué liquidar, qué dejar de pedir y qué pedir."
+    },
+    {
+      "name": "cortexdai-demo",
+      "source": "./plugins/cortexdai-demo",
+      "description": "Demostración con Distribuidora Andina (datos ficticios): las skills que se muestran a un prospecto."
     }
   ]
 }

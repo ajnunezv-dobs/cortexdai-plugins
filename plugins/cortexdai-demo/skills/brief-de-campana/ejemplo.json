@@ -1,0 +1,71 @@
+{
+  "titulo": "Línea 1: frenar la caída en la Sede A sin regalar margen",
+  "subtitulo": "Brief de campaña · ejemplo de formato",
+  "aviso": "Datos ficticios · demostración de CortexDAI",
+  "secciones": [
+    {
+      "titulo": "Por qué ahora",
+      "parrafos": [
+        "La Línea 1 cae 10.0 % en el año contra el anterior. El Competidor X anuncia la caja a US$ 9.00 contra US$ 10.00 nuestros (10 % más barato). Los datos no prueban que una cosa cause la otra."
+      ]
+    },
+    {
+      "titulo": "Dónde",
+      "tabla": {
+        "columnas": [
+          "Sede",
+          "Variación contra el año anterior",
+          "Margen",
+          "Meses de inventario"
+        ],
+        "filas": [
+          [
+            "Sede A",
+            "−20.0 %",
+            "12.0 %",
+            "4.0"
+          ],
+          [
+            "Sede B",
+            "−15.0 %",
+            "14.0 %",
+            "2.5"
+          ],
+          [
+            "Sede C",
+            "−10.0 %",
+            "15.0 %",
+            "1.0"
+          ]
+        ]
+      },
+      "parrafos": [
+        "La Sede C no se promociona: con 1.0 mes de inventario se quedaría sin producto."
+      ]
+    },
+    {
+      "titulo": "Qué productos",
+      "vinetas": [
+        "3 productos de la Línea 1 por liquidar en la Sede A: 3,000 cajas.",
+        "Producto 4: 400 cajas sin ninguna venta."
+      ]
+    },
+    {
+      "titulo": "Qué se puede ofrecer",
+      "parrafos": [
+        "La Línea 1 deja 12.0 % de margen en la Sede A. Igualar al Competidor X lo dejaría cerca de 2 %: es una aproximación, el margen existe por sede y línea, no por producto."
+      ]
+    },
+    {
+      "titulo": "Cómo sabremos si funcionó",
+      "destacado": "Línea 1 en la Sede A: de 600 cajas proyectadas este mes a 1,000 al cierre del siguiente."
+    },
+    {
+      "titulo": "Lo que no sabemos",
+      "vinetas": [
+        "Presupuesto y canales de la campaña.",
+        "Precio del competidor por producto: solo hay el precio por caja de la línea."
+      ]
+    }
+  ]
+}

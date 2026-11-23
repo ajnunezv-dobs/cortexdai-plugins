@@ -1,0 +1,74 @@
+{
+  "titulo": "Plan de acción · Sede A",
+  "subtitulo": "Lo que queda del mes · ejemplo de formato",
+  "aviso": "Datos ficticios · demostración de CortexDAI",
+  "acciones": [
+    {
+      "accion": "Liquidar los 3 productos de la Línea 1 con más inventario",
+      "linea": "Línea 1",
+      "cajas": 3000,
+      "por_que": "4.0 meses de venta en almacén; 800 cajas con más de 120 días",
+      "responsable": "Sin responsable",
+      "fecha_limite": "2026-01-31"
+    },
+    {
+      "accion": "Dejar de pedir los 2 productos de la Línea 2 con sobrestock",
+      "linea": "Línea 2",
+      "cajas": 2000,
+      "por_que": "Sobrestock: hay más inventario del que se vende en el plazo de reposición",
+      "responsable": "Sin responsable",
+      "fecha_limite": "2026-01-25"
+    },
+    {
+      "accion": "Retirar de la sala el Producto 4",
+      "linea": "Línea 1",
+      "cajas": 400,
+      "por_que": "Sin ninguna venta",
+      "responsable": "Sin responsable",
+      "fecha_limite": "2026-01-31"
+    },
+    {
+      "accion": "Pedir los 2 productos que se acaban",
+      "linea": "Línea 3",
+      "cajas": 200,
+      "por_que": "Se acaban antes de que llegue la reposición",
+      "responsable": "Sin responsable",
+      "fecha_limite": "2026-01-25"
+    }
+  ],
+  "meta": [
+    {
+      "linea": "Línea 1",
+      "vendido": 1000,
+      "meta": 2500,
+      "esperado": 2000,
+      "cierre": 1200,
+      "faltan": 1300
+    },
+    {
+      "linea": "Línea 2",
+      "vendido": 2500,
+      "meta": 4000,
+      "esperado": 3200,
+      "cierre": 3000,
+      "faltan": 1000
+    },
+    {
+      "linea": "Línea 3",
+      "vendido": 1500,
+      "meta": 2500,
+      "esperado": 2000,
+      "cierre": 1800,
+      "faltan": 700
+    }
+  ],
+  "total": {
+    "linea": "Total de la sede",
+    "vendido": 5000,
+    "meta": 9000,
+    "esperado": 7200,
+    "cierre": 6000,
+    "faltan": 3000
+  },
+  "nota": "Ejemplo de formato. Las acciones mueven cajas; no prometen ventas."
+}

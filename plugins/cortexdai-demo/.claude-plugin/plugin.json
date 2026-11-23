@@ -1,0 +1,7 @@
+{
+  "name": "cortexdai-demo",
+  "displayName": "CortexDAI · Demo",
+  "version": "1.0.0",
+  "description": "Las skills de la demostración de CortexDAI con Distribuidora Andina (datos ficticios): informe de la semana, plan por sede, brief de campaña, presentación de comité, dinero detenido, evaluar una línea y documentos con la marca de DObs.",
+  "author": { "name": "DObs", "url": "https://dobservability.com" }
+}

@@ -1,0 +1,60 @@
+{
+  "aviso": "Datos ficticios · demostración de CortexDAI",
+  "hojas": [
+    {
+      "nombre": "Línea 1 por sede",
+      "titulo": "Línea 1: variación contra el año anterior por sede",
+      "subtitulo": "Ejemplo de formato: sedes, líneas y cifras inventadas.",
+      "columnas": [
+        "Sede",
+        "Variación %"
+      ],
+      "filas": [
+        [
+          "Sede A",
+          -20.0
+        ],
+        [
+          "Sede B",
+          -15.0
+        ],
+        [
+          "Sede C",
+          -10.0
+        ]
+      ],
+      "total": [
+        "Toda la red",
+        -15.0
+      ],
+      "nota": "El total es el que entrega el conector: el programa no suma."
+    },
+    {
+      "nombre": "Sede A",
+      "titulo": "Sede A: avance del mes",
+      "subtitulo": "Datos al día 20",
+      "columnas": [
+        "Concepto",
+        "Cajas"
+      ],
+      "filas": [
+        [
+          "Vendido",
+          5000
+        ],
+        [
+          "Meta",
+          9000
+        ],
+        [
+          "Cierre proyectado",
+          6000
+        ],
+        [
+          "Faltan para la meta",
+          3000
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "antetitulo": "Comité comercial · ejemplo de formato",
+  "titulo": "El mes cerraría en 80.0 % de la meta: dos sedes no llegan",
+  "subtitulo": "Empresa de ejemplo · Ejemplo de formato: sedes, líneas y cifras inventadas.",
+  "aviso": "Datos ficticios · demostración de CortexDAI",
+  "diapositivas": [
+    {
+      "tipo": "cifras",
+      "titulo": "La red va 8,000 cajas por debajo de lo esperado a la fecha",
+      "cifras": [
+        {
+          "valor": "40,000",
+          "rotulo": "cajas vendidas en el mes, al día 20"
+        },
+        {
+          "valor": "50,000",
+          "rotulo": "cierre proyectado del mes, contra una meta de 62,500",
+          "destacada": true
+        },
+        {
+          "valor": "80.0 %",
+          "rotulo": "de la meta del mes, si el ritmo no cambia"
+        },
+        {
+          "valor": "1 de 3",
+          "rotulo": "sedes llegan a su meta"
+        }
+      ],
+      "nota": "Periodo y fuente de la meta van aquí."
+    },
+    {
+      "tipo": "tabla",
+      "titulo": "Dos sedes van atrasadas y la Sede C es la peor",
+      "columnas": [
+        "Sede",
+        "Vendido",
+        "Meta",
+        "Cierre proyectado",
+        "% de la meta",
+        "Estado"
+      ],
+      "filas": [
+        [
+          "Sede A",
+          "20,000",
+          "25,000",
+          "26,000",
+          "104.0 %",
+          {
+            "estado": "verde",
+            "texto": "Llega"
+          }
+        ],
+        [
+          "Sede B",
+          "12,000",
+          "20,000",
+          "15,000",
+          "75.0 %",
+          {
+            "estado": "ambar",
+            "texto": "En riesgo"
+          }
+        ],
+        [
+          "Sede C",
+          "8,000",
+          "17,500",
+          "9,000",
+          "51.4 %",
+          {
+            "estado": "rojo",
+            "texto": "Atrasada"
+          }
+        ]
+      ],
+      "nota": "El estado compara contra lo esperado a la fecha."
+    },
+    {
+      "tipo": "vinetas",
+      "titulo": "En la Sede C, la Línea 1 no se vende y se acumula",
+      "vinetas": [
+        "La Línea 1 cerraría el mes en 600 cajas contra una meta de 1,000.",
+        "En el año, la Línea 1 cae 20.0 % en la Sede C contra el anterior.",
+        "Hay 3,000 cajas de la Línea 1 en el almacén de la Sede C: 4.0 meses de venta."
+      ],
+      "nota": "Almacén: fecha de la foto aquí."
+    },
+    {
+      "tipo": "frase",
+      "texto": "Diez objetivos van en rojo o ámbar y ninguno tiene una acción en curso.",
+      "fuente": "Objetivos de las áreas · periodo aquí"
+    },
+    {
+      "tipo": "cierre",
+      "titulo": "Tres decisiones para esta semana",
+      "vinetas": [
+        "Sede C: liquidar 3 productos de la Línea 1 (3,000 cajas) antes de pedir más.",
+        "Sede B: faltan 5,000 cajas para la meta en los días que quedan.",
+        "Asignar hoy un responsable y una fecha a cada objetivo en rojo."
+      ]
+    }
+  ]
+}

@@ -14,11 +14,17 @@ import sys
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERRAMIENTAS = {"estado_de_los_datos", "describir_datos", "como_vamos", "avance_contra_meta", "evolucion",
                 "stock_por_antiguedad", "consultar_sql"}
+#: La demo (Distribuidora Andina) tiene su propio conector, con otras herramientas. Su dirección lleva clave y por eso el
+#: plugin de la demo no trae `.mcp.json`: el conector de la demo se agrega a mano y nunca se escribe en este repositorio.
+HERRAMIENTAS_DEMO = {"describir_datos", "estado_de_los_datos", "como_vamos_este_mes", "avance_contra_meta", "ventas",
+                     "stock_por_antiguedad", "que_pedir", "objetivos", "fuentes", "competencia", "consultar_sql"}
 #: Lo que se parece a una herramienta en un SKILL.md: `palabra_con_guion_bajo` entre comillas invertidas.
 PARECE_HERRAMIENTA = re.compile(r"`([a-z]+(?:_[a-z]+)+)`")
 #: Campos de las respuestas del conector que sí se nombran (no son herramientas).
 CAMPOS = {"hay_datos", "cumplimiento_a_la_fecha_pct", "cumplimiento_pct", "en_palabras", "variacion_anual_pct", "separar_por",
           "meta_a_la_fecha"}
+CAMPOS_DEMO = {"sin_venta", "se_acaba", "fecha_foto", "coincide_con_la_pantalla", "en_riesgo", "datos_al", "cierre_proyectado_pct",
+               "esperado_a_la_fecha", "faltan_cajas", "cajas_vendidas", "sin_dato"}
 CIFRA = re.compile(r"\b\d{1,3}(,\d{3})+\b|\b\d+\.\d\s?%")
 fallas = []
 
@@ -56,7 +62,8 @@ for p in m["plugins"]:
             falla(f"{p['name']}/{s}: el encabezado no tiene name = carpeta y descripción")
         if p["name"] != "cortexdai-prueba" and "Las cifras salen siempre del conector de CortexDAI" not in texto:
             falla(f"{p['name']}/{s}: no dice que las cifras salen del conector")
-        for h in set(PARECE_HERRAMIENTA.findall(texto)) - HERRAMIENTAS - CAMPOS:
+        validas = HERRAMIENTAS_DEMO if p["name"] == "cortexdai-demo" else HERRAMIENTAS
+        for h in set(PARECE_HERRAMIENTA.findall(texto)) - validas - CAMPOS - CAMPOS_DEMO:
             falla(f"{p['name']}/{s}: nombra `{h}`, que no es una herramienta del conector")
         for c in CIFRA.findall(texto):
             falla(f"{p['name']}/{s}: trae una cifra ({c})")

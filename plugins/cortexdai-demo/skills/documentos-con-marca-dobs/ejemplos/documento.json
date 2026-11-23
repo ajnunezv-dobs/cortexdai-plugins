@@ -1,0 +1,48 @@
+{
+  "tipo": "Informe de la semana",
+  "titulo": "El mes cerraría en 80.0 % de la meta",
+  "subtitulo": "Empresa de ejemplo · Ejemplo de formato: sedes, líneas y cifras inventadas.",
+  "aviso": "Datos ficticios · demostración de CortexDAI",
+  "secciones": [
+    {
+      "titulo": "Cómo va el mes",
+      "parrafos": [
+        "El mes lleva 40,000 cajas al día 20 y cerraría en 50,000 contra una meta de 62,500. El mes anterior cerró en 55,000 cajas, 5.0 % menos que el mismo mes del año anterior."
+      ]
+    },
+    {
+      "titulo": "Dos sedes no llegan",
+      "tabla": {
+        "columnas": [
+          "Sede",
+          "Cierre proyectado"
+        ],
+        "filas": [
+          [
+            "Sede A",
+            "104.0 %"
+          ],
+          [
+            "Sede B",
+            "75.0 %"
+          ],
+          [
+            "Sede C",
+            "51.4 %"
+          ]
+        ]
+      }
+    },
+    {
+      "titulo": "Lo que no puede esperar",
+      "vinetas": [
+        "Sede C: 3,000 cajas de la Línea 1 en almacén, 4.0 meses de venta.",
+        "1,500 cajas con más de 120 días en el almacén."
+      ]
+    },
+    {
+      "titulo": "La cifra",
+      "destacado": "Diez objetivos en rojo o ámbar, y ninguno tiene una acción en curso."
+    }
+  ]
+}

@@ -6,11 +6,6 @@
   },
   "plugins": [
     {
-      "name": "cortexdai-prueba",
-      "source": "./plugins/cortexdai-prueba",
-      "description": "Plugin de prueba: comprueba que las actualizaciones llegan solas"
-    },
-    {
       "name": "cortexdai-comercial",
       "source": "./plugins/cortexdai-comercial",
       "description": "Ventas contra la meta: cómo va el mes, dónde se pierde, evaluar un producto e informe de la semana."

@@ -13,9 +13,14 @@ cada publicación sube el `version` del `plugin.json`.
 | `cortexdai-comercial` | Cómo va el mes, plan para cerrar el mes, evaluar un producto, informe de la semana |
 | `cortexdai-inventario` | Dinero detenido, qué pedir y qué no |
 | `cortexdai-demo` | Las skills de la demostración con Distribuidora Andina (datos ficticios); usan el conector de la demo, que se agrega a mano |
-| `cortexdai-prueba` | Solo para comprobar que las actualizaciones llegan solas |
 
 Comercial e Inventario traen el conector único `https://mcp.cortexdai.dobservability.com/mcp`: el inicio de sesión decide el ambiente
 de cada cliente. Las skills solo usan las siete herramientas fijas del conector.
 
 Antes de publicar: `python scripts/validar.py` y subir el `version` del plugin que cambió.
+
+## Cómo llegan los cambios
+
+Con un marketplace agregado por una persona (Customize → Plugins → Add marketplace), «Sync automatically» no trajo los
+cambios por sí solo en la prueba del 2026-11-23: llegan con **Manage marketplaces → ⋯ → Check for updates**, un clic que
+actualiza todos los plugins. En Team y Enterprise el administrador sincroniza el repositorio para toda la empresa (sin probar).

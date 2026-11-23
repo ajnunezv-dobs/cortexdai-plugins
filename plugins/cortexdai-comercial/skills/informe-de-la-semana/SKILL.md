@@ -8,7 +8,7 @@ description: Arma el informe de la semana para gerencia con las cifras de la emp
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de ninguna
 empresa.
 
-**Versión de esta skill:** CortexDAI · Comercial 0.4.0. Si las instrucciones del conector de CortexDAI dicen otra versión vigente para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
+**Versión de esta skill:** CortexDAI · Comercial 0.5.0. Si alguna respuesta del conector de CortexDAI trae `plugins_vigentes` con otra versión para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
 
 ## Antes de escribir
 

@@ -12,8 +12,8 @@ MARCA = re.compile(r"\n\*\*Versión de esta skill:\*\*.*?(?=\n\n)", re.S)
 
 
 def bloque(nombre, visible, version):
-    return (f"\n**Versión de esta skill:** {visible} {version}. Si las instrucciones del conector de CortexDAI dicen otra versión "
-            f"vigente para `{nombre}`, termina tu respuesta con esta línea: «Hay una versión nueva de {visible}. Para tenerla: en "
+    return (f"\n**Versión de esta skill:** {visible} {version}. Si alguna respuesta del conector de CortexDAI trae "
+            f"`plugins_vigentes` con otra versión para `{nombre}`, termina tu respuesta con esta línea: «Hay una versión nueva de {visible}. Para tenerla: en "
             "claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»")
 
 

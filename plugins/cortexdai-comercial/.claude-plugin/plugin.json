@@ -1,7 +1,7 @@
 {
   "name": "cortexdai-comercial",
   "displayName": "CortexDAI · Comercial",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Cómo va el mes contra la meta, dónde se está perdiendo, cómo evaluar un producto y el informe de la semana, con las cifras verificadas de tu empresa en CortexDAI.",
   "author": { "name": "DObs", "url": "https://dobservability.com" }
 }

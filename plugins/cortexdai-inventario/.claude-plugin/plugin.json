@@ -1,7 +1,7 @@
 {
   "name": "cortexdai-inventario",
   "displayName": "CortexDAI · Inventario",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Cuánto dinero está detenido en el almacén, qué liquidar, qué dejar de pedir y qué pedir ya, con las cifras verificadas de tu empresa en CortexDAI.",
   "author": { "name": "DObs", "url": "https://dobservability.com" }
 }

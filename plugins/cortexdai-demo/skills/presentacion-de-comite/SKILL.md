@@ -1,9 +1,11 @@
 ---
 name: presentacion-de-comite
-description: Arma la presentación del comité en PowerPoint, ya con la marca de DObs (colores, logotipo, tipografías y pie en cada lámina), a partir de los datos de CortexDAI (demo Distribuidora Andina, datos ficticios). Úsala cuando pidan «la presentación para el comité», «pásalo a láminas», «un PowerPoint con esto», «la presentación del lunes» o quieran llevar a una reunión lo que se acaba de analizar. También cuando lo pidan en Google Slides: se arma el mismo archivo con marca y se abre en Google. Solo para la demo Distribuidora Andina: si los datos son de Incamotors (su conector CortexDAI, sus sedes o sus marcas de autos), NO uses esta skill: usa incamotors-marca, que pone la marca de Incamotors.
+description: Solo para la demo de CortexDAI con Distribuidora Andina, con su conector activo. Arma la presentación del comité en PowerPoint, ya con la marca de DObs (colores, logotipo, tipografías y pie en cada lámina), a partir de los datos de CortexDAI (demo Distribuidora Andina, datos ficticios). Úsala cuando pidan «la presentación para el comité», «pásalo a láminas», «un PowerPoint con esto», «la presentación del lunes» o quieran llevar a una reunión lo que se acaba de analizar. También cuando lo pidan en Google Slides: se arma el mismo archivo con marca y se abre en Google. Solo para la demo Distribuidora Andina: si los datos son de Incamotors (su conector CortexDAI, sus sedes o sus marcas de autos), NO uses esta skill: usa incamotors-marca, que pone la marca de Incamotors.
 ---
 
 # Presentación de comité con la marca de DObs
+
+**Solo con el conector de la demo.** Usa esta skill únicamente si en esta conversación está activo el conector de la demo de Distribuidora Andina (sus herramientas incluyen `que_pedir`, `objetivos` y `competencia`). Si el conector activo es el de una empresa real, no la uses: para eso están los plugins CortexDAI · Comercial e Inventario.
 
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de la empresa: los ejemplos son solo de formato, con sedes, líneas y valores inventados («Sede A», «Línea 1»). Nunca copies una cifra, una sede ni un producto de un ejemplo.
 

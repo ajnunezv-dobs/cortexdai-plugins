@@ -1,9 +1,11 @@
 ---
 name: informe-de-la-semana
-description: Arma el informe semanal para la gerencia con los datos de CortexDAI (demo Distribuidora Andina, datos ficticios) — cómo va el mes contra la meta, qué objetivos están en riesgo, qué pasa en el almacén y tres decisiones para esta semana. Úsala cuando pidan «el informe de la semana», «el resumen para gerencia», «cómo vamos» o «qué tengo que mirar el lunes».
+description: Solo para la demo de CortexDAI con Distribuidora Andina, con su conector activo. Arma el informe semanal para la gerencia con los datos de CortexDAI (demo Distribuidora Andina, datos ficticios) — cómo va el mes contra la meta, qué objetivos están en riesgo, qué pasa en el almacén y tres decisiones para esta semana. Úsala cuando pidan «el informe de la semana», «el resumen para gerencia», «cómo vamos» o «qué tengo que mirar el lunes».
 ---
 
 # Informe de la semana
+
+**Solo con el conector de la demo.** Usa esta skill únicamente si en esta conversación está activo el conector de la demo de Distribuidora Andina (sus herramientas incluyen `que_pedir`, `objetivos` y `competencia`). Si el conector activo es el de una empresa real, no la uses: para eso están los plugins CortexDAI · Comercial e Inventario.
 
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de la empresa: los ejemplos son solo de formato, con sedes, líneas y valores inventados («Sede A», «Línea 1»). Nunca copies una cifra, una sede ni un producto de un ejemplo.
 

@@ -8,6 +8,8 @@ description: Responde cómo va el mes contra la meta con las cifras de la empres
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de ninguna
 empresa. No estimes ni completes una cifra que falte: si no está, dilo.
 
+**Versión de esta skill:** CortexDAI · Comercial 0.2.0. Si las instrucciones del conector de CortexDAI dicen otra versión vigente para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
+
 ## Pasos
 
 1. `como_vamos` (sin `periodo`: el mes vigente). Si piden otro mes, `periodo = "AAAA-MM"`.

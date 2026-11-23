@@ -8,6 +8,8 @@ description: Evalúa un producto o línea de punta a punta con las cifras de la 
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de ninguna
 empresa.
 
+**Versión de esta skill:** CortexDAI · Comercial 0.2.0. Si las instrucciones del conector de CortexDAI dicen otra versión vigente para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
+
 ## Pasos
 
 1. `estado_de_los_datos`: el nombre exacto del producto. Si el que pidieron no existe, dilo y ofrece los que hay.

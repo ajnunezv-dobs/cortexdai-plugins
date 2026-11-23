@@ -65,6 +65,8 @@ for p in m["plugins"]:
         validas = HERRAMIENTAS_DEMO if p["name"] == "cortexdai-demo" else HERRAMIENTAS
         for h in set(PARECE_HERRAMIENTA.findall(texto)) - validas - CAMPOS - CAMPOS_DEMO:
             falla(f"{p['name']}/{s}: nombra `{h}`, que no es una herramienta del conector")
+        if os.path.exists(mcp) and f"**Versión de esta skill:** {pj.get('displayName')} {pj.get('version')}." not in texto:
+            falla(f"{p['name']}/{s}: no dice la versión del plugin (corre scripts/marcar-version.py)")
         for c in CIFRA.findall(texto):
             falla(f"{p['name']}/{s}: trae una cifra ({c})")
 

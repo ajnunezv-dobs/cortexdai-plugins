@@ -1,9 +1,11 @@
 ---
 name: plan-de-accion-por-sede
-description: Convierte el atraso de una sede en un plan de acción para lo que queda del mes — cuántas cajas faltan por línea, qué productos liquidar, cuáles dejar de pedir y cuáles pedir — y lo entrega como una hoja de Excel con responsable y fecha, ya con la marca de DObs (logotipo y colores), con los datos de CortexDAI (demo Distribuidora Andina, datos ficticios). Úsala cuando pidan «el plan para Cusco», «¿qué hago con esta sede?», «un plan de acción», «¿cómo cierro el mes?» o una lista de tareas para un jefe de sede. También cuando lo pidan en Google Sheets: se arma el mismo archivo con marca y se abre en Google.
+description: Solo para la demo de CortexDAI con Distribuidora Andina, con su conector activo. Convierte el atraso de una sede en un plan de acción para lo que queda del mes — cuántas cajas faltan por línea, qué productos liquidar, cuáles dejar de pedir y cuáles pedir — y lo entrega como una hoja de Excel con responsable y fecha, ya con la marca de DObs (logotipo y colores), con los datos de CortexDAI (demo Distribuidora Andina, datos ficticios). Úsala cuando pidan «el plan para Cusco», «¿qué hago con esta sede?», «un plan de acción», «¿cómo cierro el mes?» o una lista de tareas para un jefe de sede. También cuando lo pidan en Google Sheets: se arma el mismo archivo con marca y se abre en Google.
 ---
 
 # Plan de acción por sede
+
+**Solo con el conector de la demo.** Usa esta skill únicamente si en esta conversación está activo el conector de la demo de Distribuidora Andina (sus herramientas incluyen `que_pedir`, `objetivos` y `competencia`). Si el conector activo es el de una empresa real, no la uses: para eso están los plugins CortexDAI · Comercial e Inventario.
 
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de la empresa: los ejemplos son solo de formato, con sedes, líneas y valores inventados («Sede A», «Línea 1»). Nunca copies una cifra, una sede ni un producto de un ejemplo.
 

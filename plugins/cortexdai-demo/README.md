@@ -7,4 +7,4 @@ clave y por eso no está en este repositorio.
 Fuente: `mcp_demo/skills` del repositorio de la plataforma, donde se prueban contra el conector de la demo. Para
 traer cambios: `python scripts/traer-demo.py <carpeta del lakehouse>`, `python scripts/validar.py`, subir `version`.
 
-Fuera de una demo, apaga este plugin: sus skills son para la demo y no sirven con los datos de un cliente.
+Cada skill se usa solo cuando el conector de la demo está activo: el plugin puede quedar encendido.

@@ -8,6 +8,8 @@ description: Compara el inventario con lo que se vende para decir qué productos
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de ninguna
 empresa. La venta futura no se conoce: esto es una sugerencia para decidir, no un pedido.
 
+**Versión de esta skill:** CortexDAI · Inventario 0.2.0. Si las instrucciones del conector de CortexDAI dicen otra versión vigente para `cortexdai-inventario`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Inventario. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
+
 ## Pasos
 
 1. `estado_de_los_datos`: el último mes cerrado y la fecha de la foto del inventario.

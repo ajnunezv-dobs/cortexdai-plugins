@@ -27,7 +27,11 @@ actualiza todos los plugins. En Team y Enterprise el administrador sincroniza el
 
 ## Plugins propios de un cliente (su marca, sus plantillas, sus grupos)
 
+    python -I scripts/marca-desde-web.py <web del cliente> <carpeta privada del cliente> "<Nombre>"
     python scripts/generar-cliente.py <carpeta privada del cliente>
+
+El primero saca de la web pública del cliente su logotipo (las dos versiones) y sus colores, y deja `cliente.json` y
+`vista-de-la-marca.png` para revisarla antes de seguir. El segundo arma los plugins.
 
 La carpeta del cliente (con `cliente.json`, sus logotipos y sus plantillas) **no va en este repositorio**: vive en
 `D:\Proyectos\DObs\cortexdai-plugins-clientes\<cliente>`. El generador toma las skills de Comercial e Inventario, les

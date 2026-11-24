@@ -96,9 +96,17 @@ def pie(lamina, numero, aviso, fondo="papel"):
     oscuro = fondo == "tinta"
     logo = MARCA["logo_sobre_oscuro" if oscuro else "logo_sobre_acento" if fondo == "pistacho" else "logo_sobre_claro"]
     alto_logo = 0.3
-    lamina.shapes.add_picture(os.path.join(RECURSOS, logo), Inches(MARGEN), Inches(ALTO - 0.72), height=Inches(alto_logo))
+    foto = lamina.shapes.add_picture(os.path.join(RECURSOS, logo), Inches(MARGEN), Inches(ALTO - 0.72), height=Inches(alto_logo))
+    # Un logotipo ancho (el que ya trae el nombre de la empresa) no puede pisar el aviso: se achica hasta caber, y la
+    # firma, que repetiría el nombre, no se escribe.
+    ancho_max = 3.6 - MARGEN - 0.2
+    if foto.width > Inches(ancho_max):
+        proporcion = Inches(ancho_max) / foto.width
+        foto.width, foto.height = int(foto.width * proporcion), int(foto.height * proporcion)
+        foto.top = int(Inches(ALTO - 0.57) - foto.height / 2)
     tenue = "gris_claro" if oscuro else ("tinta" if fondo == "pistacho" else "gris")
-    texto(lamina, MARGEN + 1.1, ALTO - 0.68, 1.6, 0.3, MARCA["firma"], 11, tenue, "titulos", negrita=True, ancla=MSO_ANCHOR.MIDDLE)
+    if foto.width <= Inches(1.0):
+        texto(lamina, MARGEN + 1.1, ALTO - 0.68, 1.6, 0.3, MARCA["firma"], 11, tenue, "titulos", negrita=True, ancla=MSO_ANCHOR.MIDDLE)
     texto(lamina, 3.6, ALTO - 0.68, ANCHO - 7.2, 0.3, aviso, 10, tenue, "cifras", alinear=PP_ALIGN.CENTER, ancla=MSO_ANCHOR.MIDDLE)
     texto(lamina, ANCHO - MARGEN - 1, ALTO - 0.68, 1, 0.3, f"{numero:02d}", 10, tenue, "cifras", alinear=PP_ALIGN.RIGHT, ancla=MSO_ANCHOR.MIDDLE)
 

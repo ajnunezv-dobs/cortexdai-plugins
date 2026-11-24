@@ -8,10 +8,12 @@ description: Arma el informe de la semana para gerencia con las cifras de la emp
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de ninguna
 empresa.
 
-**Versión de esta skill:** CortexDAI · Comercial 0.5.0. Si alguna respuesta del conector de CortexDAI trae `plugins_vigentes` con otra versión para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
+**Versión de esta skill:** CortexDAI · Comercial 0.6.0. Si alguna respuesta del conector de CortexDAI trae `plugins_vigentes` con otra versión para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
 
 ## Antes de escribir
 
+0. Si junto a este archivo hay un `plantilla.md` (la plantilla que acordó la empresa), léelo primero: dice para quién
+   es el informe, qué secciones lleva y en qué formato se entrega, y manda sobre la estructura de abajo.
 1. Si no dijeron para quién es (gerencia, una jefatura de sede, marketing), pregúntalo en una línea. Para una
    sede, todas las herramientas van con `unidades = [esa sede]`.
 2. `estado_de_los_datos`: hasta qué fecha llegan los datos. Si una carga está atrasada o con `demora`, dilo en la

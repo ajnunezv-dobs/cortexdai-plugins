@@ -24,3 +24,12 @@ Antes de publicar: `python scripts/validar.py` y subir el `version` del plugin q
 Con un marketplace agregado por una persona (Customize → Plugins → Add marketplace), «Sync automatically» no trajo los
 cambios por sí solo en la prueba del 2026-11-23: llegan con **Manage marketplaces → ⋯ → Check for updates**, un clic que
 actualiza todos los plugins. En Team y Enterprise el administrador sincroniza el repositorio para toda la empresa (sin probar).
+
+## Plugins propios de un cliente (su marca, sus plantillas, sus grupos)
+
+    python scripts/generar-cliente.py <carpeta privada del cliente>
+
+La carpeta del cliente (con `cliente.json`, sus logotipos y sus plantillas) **no va en este repositorio**: vive en
+`D:\Proyectos\DObs\cortexdai-plugins-clientes\<cliente>`. El generador toma las skills de Comercial e Inventario, les
+pone la versión del cliente, agrega `documentos-con-marca` con su marca (`plantillas/documentos-con-marca`) y deja un
+plugin por grupo, con su .zip para «Upload plugin». El formato de la ficha está al inicio de `scripts/generar-cliente.py`.

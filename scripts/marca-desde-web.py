@@ -168,7 +168,12 @@ def principal(web: str, carpeta: str, nombre: str, id_: str) -> dict:
         try:
             datos, tipo = bajar(u)
             im = Image.open(io.BytesIO(datos))
+            if im.width * im.height > 60_000_000:
+                continue   # una imagen así no es un logotipo, y abrirla agota la memoria del trabajo de alta
+            im.draft("RGBA", (2400, 2400))
             im.load()
+            # Achicada apenas se abre: un logotipo de 17.000 px de ancho (el de Grupo Pana) agotaba la memoria del alta.
+            im.thumbnail((2400, 2400))
         except Exception:
             continue
         mejores.append((puntaje(im, u), u, im))

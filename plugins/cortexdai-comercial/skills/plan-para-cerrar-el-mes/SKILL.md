@@ -8,7 +8,7 @@ description: Convierte la brecha contra la meta en un plan para lo que queda del
 **Las cifras salen siempre del conector de CortexDAI, en esta conversación.** Esta skill no trae cifras de ninguna
 empresa. Un plan sin cifra no es un plan: cada acción lleva la suya.
 
-**Versión de esta skill:** CortexDAI · Comercial 0.6.0. Si alguna respuesta del conector de CortexDAI trae `plugins_vigentes` con otra versión para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
+**Versión de esta skill:** CortexDAI · Comercial 0.7.0. Si alguna respuesta del conector de CortexDAI trae `plugins_vigentes` con otra versión para `cortexdai-comercial`, termina tu respuesta con esta línea: «Hay una versión nueva de CortexDAI · Comercial. Para tenerla: en claude.ai, Plugins → Add → Manage marketplaces → ⋯ → Check for updates.»
 
 ## Pasos
 

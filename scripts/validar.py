@@ -22,7 +22,9 @@ HERRAMIENTAS_DEMO = {"describir_datos", "estado_de_los_datos", "como_vamos_este_
 PARECE_HERRAMIENTA = re.compile(r"`([a-z]+(?:_[a-z]+)+)`")
 #: Campos de las respuestas del conector que sí se nombran (no son herramientas).
 CAMPOS = {"hay_datos", "cumplimiento_a_la_fecha_pct", "cumplimiento_pct", "en_palabras", "variacion_anual_pct", "separar_por",
-          "meta_a_la_fecha", "plugins_vigentes"}
+          "meta_a_la_fecha", "plugins_vigentes",
+          # La serie día a día de `evolucion` (2026-11-24).
+          "con_dato", "dato_hasta", "totales_por_mes", "otras_medidas_por_dia", "gasto_publicidad"}
 CAMPOS_DEMO = {"sin_venta", "se_acaba", "fecha_foto", "coincide_con_la_pantalla", "en_riesgo", "datos_al", "cierre_proyectado_pct",
                "esperado_a_la_fecha", "faltan_cajas", "cajas_vendidas", "sin_dato"}
 CIFRA = re.compile(r"\b\d{1,3}(,\d{3})+\b|\b\d+\.\d\s?%")
